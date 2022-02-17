@@ -33,7 +33,7 @@ tasks.named('test') {
 // ================== [ React Build Task ] ===================
 // Spring재부팅시 React빌드 후 Spring리소스 디렉터리로 빌드내용을 옴겨줌
 // =====================================
-def frontendDir = "$projectDir/app" // <-- 리액트프로젝트 경로
+def frontendDir = "$projectDir/src/app" // <-- 리액트프로젝트 경로
 
 sourceSets {
     main {

@@ -52,3 +52,8 @@ cd app<br/>
 npm start<br/>
 </b><br/>
 </div>
+
+### 기존포트가 살아있을 경우
+기존서버포트 pid확인후 kill(종료) 시키기
+netstat -nao |  findstr 8080
+taskkill /f /pid "22572"
